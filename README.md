@@ -1,1 +1,7 @@
-# Movie-Recommendation
+This project is a production-ready Content-Based Movie Recommendation System built using TF-IDF vectorization, Cosine Similarity, and Natural Language Processing (NLP) techniques. The model was trained on a Kaggle movie dataset containing metadata such as overview, genres, keywords, cast, and crew. After preprocessing (text cleaning, tokenization, stopword removal, and feature merging), the textual features were transformed into high-dimensional TF-IDF vectors, and similarity between movies is computed using cosine similarity to generate top-N recommendations.
+
+The system integrates the TMDB API to dynamically fetch posters, backdrops, release dates, genres, trending movies, and search results, making the recommendations visually rich and real-time. If TF-IDF similarity does not return sufficient results, a genre-based fallback mechanism ensures recommendations are always available.
+
+The backend is built with FastAPI, handling model loading, similarity computation, and API communication, while the frontend is developed using Streamlit with a production-level UI featuring dynamic routing, responsive grids, and interactive movie cards.
+
+This project demonstrates applied NLP, feature engineering, vector space modeling, similarity-based ranking, and full-stack ML deployment — making it suitable for ML internships, portfolio showcases, and real-world recommendation system demonstrations.

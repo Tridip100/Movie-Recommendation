@@ -1,33 +1,9 @@
-# Common packages for a movie-recommendation / small ML web app
-# Edit versions to match your platform as needed. To install:
-# & '.\.venv\Scripts\python.exe' -m pip install -r requirements.txt
-
-numpy>=1.24
-pandas>=2.0
-scipy>=1.10
-scikit-surprise==1.1.4
-
-# Surprise (collaborative filtering) - PyPI package name is scikit-surprise
-scikit-surprise>=1.1
-
-# Text processing / TF-IDF and NLP
-nltk>=3.7
-scikit-learn  # already listed above, kept for clarity
-
-# Optional: web/api serving and environment variables
-Flask>=2.2
-python-dotenv>=1.0
-
-# Utilities
-tqdm>=4.60
-joblib>=1.2
-
-# Visualization (optional)
-matplotlib>=3.6
-seaborn>=0.12
-
-# Development / testing (optional)
-pytest>=7.0
-
-# NOTE: Some packages (like scikit-surprise) may need platform-specific wheels on Windows.
-# If installation fails on Windows, try using conda or refer to package docs.
+streamlit
+fastapi
+uvicorn
+requests
+numpy
+pandas
+scipy
+scikit-learn
+nltk
